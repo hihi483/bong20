@@ -1,3 +1,6 @@
+function byela () {
+    basic.showIcon(IconNames.Skull)
+}
 input.onGesture(Gesture.ThreeG, function () {
     _1()
 })
@@ -15,7 +18,7 @@ input.onButtonPressed(Button.AB, function () {
     colightshow = 0
 })
 input.onGesture(Gesture.EightG, function () {
-    bye()
+    byela()
 })
 function bye () {
     if (colightshow > 3) {
